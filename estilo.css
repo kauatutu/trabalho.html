@@ -1,0 +1,61 @@
+ style
+            
+        h1{color:rgb(14, 77, 77); font-size:100px}/*mudança na cor do titulio*/
+        
+        h1{text-align: center;}
+           
+        h1{font-size: 100px;}
+      
+        p{font-size:20px ;}
+        
+        P{text-align: justify;}
+
+        h2{font-size: 35px;}
+
+        a{font-size: 25px;}
+
+        li{font-size:20px;}
+            
+        body{background-color: rgb(182, 245, 224);}
+
+            table {
+      border-collapse: separate;     /* Permite bordas arredondadas */
+      border-spacing: 0;
+      width: 50%;
+      margin: 30px auto;
+      border: 2px solid #4CAF50;
+      border-radius: 10px;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f9f9f9;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+    /*código acima representa cores,linhas e espaçamentos da tabela */
+
+
+    a{ color:blue;
+        text-decoration: none;} /*cor do link quando o mouse não esta em contato*/
+   
+         a:hover{ color:red;}/* cor do link quando o mouse esta em contato*/
+ 
+         #mensagem {
+      display: none;
+      margin-top: 10px;
+    }
